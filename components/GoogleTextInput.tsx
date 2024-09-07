@@ -4,8 +4,6 @@ import { Image, Text, View } from "react-native";
 import { GooglePlacesAutocomplete } from "react-native-google-places-autocomplete";
 
 const googlePlacesApiKey = process.env.EXPO_PUBLIC_GOOGLE_API_KEY;
-console.log(googlePlacesApiKey); // Should output your API key
-
 
 const GoogleTextInput = ({
   icon,
@@ -33,7 +31,7 @@ const GoogleTextInput = ({
         textInput: {
           backgroundColor: textInputBackgroundColor || "white",
           fontSize: 16,
-          //fontWeight: 600,
+          fontWeight: "600",
           marginTop: 5,
           width: "100%",
           borderRadius: 200,
