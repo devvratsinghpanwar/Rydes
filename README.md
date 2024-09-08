@@ -1,5 +1,6 @@
-# Welcome to your Expo app 👋
+# Welcome to your Rydes app 👋
 
+Rydes is a mobile application built with Expo and React Native that allows users to book rides from their current location. The app leverages a modern tech stack to provide a seamless user experience, including real-time ride booking, location services, and secure user authentication.
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
@@ -16,35 +17,24 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
     npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Ride Booking: Quickly book rides from your current location to your destination.
+2. Real-Time Location: Integrated with Google Maps to provide accurate and real-time location services.
+3. User Authentication: Secure and streamlined authentication using Clerk.
+4. Responsive UI: Designed with NativeWind for a fast and responsive user interface.
+5. Database Integration: Efficient data management using Neon.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Tech Stack
 
-## Get a fresh project
+1. Expo: The platform for building native apps using React Native.
+2. React Native: The framework used for building the Rydes mobile application.
+3. NativeWind: A utility-first CSS framework for React Native that enables responsive UI design.
+4. Google Maps: Integrated for location-based services and real-time navigation.
+5. Clerk: Handles user authentication and session management securely.
+6. Neon: Used for database management and real-time data handling.
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
